@@ -1,3 +1,5 @@
+// this is trigger for every request that is being sent and will check who is logged in based on the cookies
+
 import {
   NestInterceptor,
   ExecutionContext,
